@@ -14,6 +14,9 @@
 #vm-add.js 是 controller 文件，作用是异步请求，数据格式化，添加颜色等
 
 #html中的引入格式为
+```JavaScript
 <abn-tree-async tree-data="clone_data" tree-control="clone_tree" on-select="clone_tree_handler(branch)" expand-level="2" initial-selection="Granny Smith" icon-leaf="fa fa-file" icon-expand="fa fa-plus" icon-collapse="fa fa-minus">
 </abn-tree-async>
-
+```
+#最终 demo 截图为下
+![image](https://github.com/Levxn7/angular-bootstrap-nav-tree-async/blob/master/demo.jpg)
